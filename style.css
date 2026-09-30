@@ -1,0 +1,28 @@
+/* 3번: 제목 색상과 글꼴 크기 */
+h1 {
+  color: #d6336c;
+  font-size: 40px;
+}
+
+/* 4번: 본문에 padding과 배경색을 넣어 카드처럼 */
+body {
+  background-color: #fff0f5;
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 16px;
+}
+
+/* 5번: 좋아하는 것 목록을 Flexbox로 가로 정렬 */
+.likes {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.likes li {
+  background-color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
