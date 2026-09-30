@@ -1,12 +1,12 @@
-/* 3번: 제목 색상과 글꼴 크기 */
-h1 {
-  color: #d6336c;
-  font-size: 40px;
-}
-
 /* 바깥 배경 (카드가 눈에 띄도록) */
 html {
   background-color: #eeeeee;
+}
+
+/* 3번: 제목(h1)의 색상과 글꼴 크기 */
+h1 {
+  color: #d6336c;
+  font-size: 40px;
 }
 
 /* 4번: 본문에 padding과 배경색을 넣어 카드처럼 */
