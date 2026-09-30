@@ -4,6 +4,11 @@ h1 {
   font-size: 40px;
 }
 
+/* 바깥 배경 (카드가 눈에 띄도록) */
+html {
+  background-color: #eeeeee;
+}
+
 /* 4번: 본문에 padding과 배경색을 넣어 카드처럼 */
 body {
   background-color: #fff0f5;
